@@ -1,0 +1,21 @@
+{
+  "name": "@openclaw/article-extractor",
+  "version": "0.1.0",
+  "description": "Extract clean article content from URLs for AI pipelines",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@extractus/article-extractor": "^8.0.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  },
+  "license": "MIT"
+}
