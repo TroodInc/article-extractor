@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/article-extractor",
+  "name": "@contentengine/article-extractor",
   "version": "0.1.0",
   "description": "Extract clean article content from URLs for AI pipelines",
   "type": "module",

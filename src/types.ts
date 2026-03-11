@@ -20,8 +20,8 @@ export interface ExtractedArticle {
 
 /** Options for article extraction */
 export interface ExtractionOptions {
-  /** Request timeout in ms (default 10000) */
   timeout?: number;
-  /** Maximum content length in characters (default 50000) */
   maxLength?: number;
+  caCertPath?: string;
+  headers?: Record<string, string>;
 }

@@ -1,4 +1,4 @@
-Create a Python tool that extracts clean article content from URLs.
+Create a Node.js tool that extracts clean article content from URLs.
 
 Requirements:
 
